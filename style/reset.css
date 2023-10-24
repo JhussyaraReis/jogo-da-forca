@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=Nothing+You+Could+Do&family=Oxanium&family=Pixelify+Sans&family=Poppins:wght@100&family=Press+Start+2P&family=Sedgwick+Ave+Display&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --escurodois: #00352F;
+    --escuroum: #0D4F48;
+    --clarodois: #42847D;
+    --claroum: #6A9E98;
+    --fonte: 'Creepster', cursive;
+}

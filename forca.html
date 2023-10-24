@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Forca</title>
+    <link rel="stylesheet" href="./style/forca.css">
+</head>
+<body>
+    <div class="conteudo">
+
+        <div class="areaDoJogo">
+
+            <h1>Jogo da forca</h1>
+
+            <div class="img-forca">
+                <img class="imagemForca" src="./img/forca1.png" alt="forca">
+            </div>
+
+            <div class="palavraSecreta">
+                
+            </div>
+
+            <div class="opcoes">
+                <div>
+                <span id="frase">Insira sua sugestão:</span>
+                <input type="text" name="letraSugerida" id="letraSugerida" maxlength="1" disabled>
+                </div>
+                <button class="iniciar gerarPalavra" type="button">INICIAR</button>
+            </div>
+            
+        </div>
+
+        <div class="fimdeJogo">
+            <h1 class="textoFim"></h1>
+            <button class="iniciar reiniciar">JOGAR NOVAMENTE</button>
+        </div>
+
+        <div class="letrasTestadas"></div>
+
+    </div>
+    
+
+    <script defer src="forca.js"></script>
+</body>
+</html>
