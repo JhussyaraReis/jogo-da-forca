@@ -1,4 +1,4 @@
-# Jogo da Forca
+# Jogo da Forca - JavaScript Vanilla
  Um jogo usando apenas JavaScript vanilla.
 
  > [!IMPORTANT]
